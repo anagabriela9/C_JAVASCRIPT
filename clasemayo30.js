@@ -101,13 +101,13 @@ console.log(nuevo);
 nuevo.sort(function(a,b){return a - b;});
 console.log(nuevo);
 
-var m1 = nuevo.slice(0,3);
-var m2 = nuevo.slice(4,7);
+var m1 = nuevo.slice(0,4);
+var m2 = nuevo.slice(4,8);
 m2.reverse();
-var m3 = nuevo.slice(8,11);
-var m4 = nuevo.slice(12,15);
+var m3 = nuevo.slice(8,12);
+var m4 = nuevo.slice(12,16);
 m4.reverse();
-var m5 = nuevo.slice(16,19);
+var m5 = nuevo.slice(16,20);
 
 let final = [m1,m2,m3,m4,m5];
 
